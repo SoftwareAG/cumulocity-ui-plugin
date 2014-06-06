@@ -4,10 +4,10 @@ function (c8yNavigatorProvider, c8yViewsProvider) {
   'use strict';
 
   c8yNavigatorProvider.addNavigation({
-    name: 'Hello world',
+    name: 'New plugin',
     icon: 'cube',
     priority: 100000,
-    path: ''
+    path: '/hello'
   });
 
   c8yViewsProvider.when('/hello', {
