@@ -7,7 +7,7 @@ function (c8yNavigatorProvider, c8yViewsProvider) {
     name: 'New plugin',
     icon: 'cube',
     priority: 100000,
-    path: '/hello'
+    path: 'hello'
   });
 
   c8yViewsProvider.when('/hello', {
