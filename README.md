@@ -9,7 +9,7 @@ Boilerplate to create a cumulocity ui plugin
 - Edit the application *cumulocity.json* manifest to include the newly created plugin as an import.
 - Re register the application: *grunt appRegister*
 - Run local server: *grunt server*
-- Open in browser: *http://localhost:8000/apps/<appname>*
+- Open in browser: *http://localhost:8000/apps/<appname>/index.html*
 - Code your plugin. Iterate.
 - Build your plugin: *grunt build*
 - Make sure to re-register if you make changes to manifests: *grunt appRegister*, *grunt pluginRegisterAll*
