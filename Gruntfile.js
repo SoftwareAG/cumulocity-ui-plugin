@@ -27,7 +27,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-cumulocity-ui-tasks');
 
   grunt.registerTask('server', [
-    'readManifests',
+    'pluginPreAll',
     'connect',
     'watch'
   ]);
