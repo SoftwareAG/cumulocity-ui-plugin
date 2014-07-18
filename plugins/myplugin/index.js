@@ -12,7 +12,7 @@ function (c8yNavigatorProvider, c8yViewsProvider) {
 
   c8yViewsProvider.when('/hello', {
     // Please use this string placeholder where you want to refer you plugin path.
-    templateUrl: 'plugins/views/index.html',
+    templateUrl: ':::PLUGIN_PATH:::/views/index.html',
     controller: 'mh_MainCtrl'
   });
 
