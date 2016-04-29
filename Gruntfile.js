@@ -13,6 +13,9 @@ module.exports = function (grunt) {
   if (grunt.option('protocol')) {
     protocol = grunt.option('protocol');
   }
+  
+  // Configure local proxy
+  // grunt.config('cumulocity.localproxy’, ‘https://user:pass@local.proxy:8080')
 
   grunt.config('cumulocity.host', host);
   grunt.config('cumulocity.protocol', protocol);
