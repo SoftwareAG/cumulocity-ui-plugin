@@ -1,8 +1,8 @@
-Boilerplate to create a cumulocity ui plugin
+Boilerplate to create a Cumulocity UI plugin
 
 - Make sure you have node.js >6.7 installed
 - Install the Cumulocity CLI globally: ```npm i cumulocity-tools -g```
-- Get the plugin boilerplate here: *https://bitbucket.org/m2m/cumulocity-ui-plugin*
+- Clone or download [`cumulocity-ui-plugin`](https://bitbucket.org/m2m/cumulocity-ui-plugin) repository
 - Run ```c8y install latest```
 - Configure the **cumulocity.json** for application *(Select an application name unique in your tenant)*
 - Configure the **cumulocity.json** for plugin *(optional)*
