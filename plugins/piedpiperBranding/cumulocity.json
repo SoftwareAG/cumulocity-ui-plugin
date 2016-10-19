@@ -1,5 +1,0 @@
-{
-  "description": "Pied Piper Branding Plugin",
-  "less": ["main.less"],
-  "copy": ["img"]
-}
