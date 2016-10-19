@@ -3,9 +3,10 @@
   "contextPath": "myapplication",
   "key": "myapplication-appkey",
   "name": "My application",
-  "resourcesUrl": "https://bitbucket.org/USER/REPO/raw/master/build",
+  "resourcesUrl": "/",
   "type": "HOSTED",
   "imports": [
-    "core/c8yBranding"
+    "core/c8yBranding",
+    "myapplication/myplugin"
   ]
 }
