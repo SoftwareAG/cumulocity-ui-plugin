@@ -1,3 +1,4 @@
+# Archived -- this repository is archived and is not a valid Cumulocity example anymore
 Boilerplate to create a cumulocity ui plugin
 
 - Make sure you have node.js >6.7 installed
